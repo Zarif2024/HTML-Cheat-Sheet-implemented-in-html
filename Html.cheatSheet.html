@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Cheat sheet</title>
+    <style>
+  table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+div{
+    background-color: black;
+    width: 100%;
+    height: 20px;
+   
+   padding-top: 20px;
+   padding-bottom: 30px;
+}
+h3{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+        
+    </style>
+</head>
+<body style="background-color:#f2f2f2;" >
+    <div>
+        <h3 style="color: antiquewhite;" >HTML Cheat sheet provided by Mohammad Zarif</h3>
+    </div>
+    <table style="width: 100%;">
+      
+        <tr> 
+             <th>Name</th>
+             <th>Attribute</th>
+             <th>Description</th>
+             <th>Values</th>
+             <th>Example</th>
+             <th>Output</th>
+             
+        </tr>
+        <tr>
+            <td>&#60!DOCTYPE&#62 </td>
+            <td> Global</td>
+            <td>Specifies the HTML version being used</td>
+            <td>  </td>
+            <td> &#60 !DOCTYPE &#62 </td>
+            <td></td>
+           
+        </tr>
+        <tr>
+            <td>&#60html&#62 </td>
+            <td> lang</td>
+            <td>Creates an HTML documen</td>
+            <td> en,fa </td>
+            <td> &#60 html &#62 &#60 head &#62 &#60 title &#62 HTML&#60 &#x2215 title&#62 &#60 &#x2215 head&#62 &#60 &#x2215 html&#62</td>
+            <td>HTML</td>
+           
+        </tr>
+        <tr>
+            <td>&#60head&#62 </td>
+            <td> charset</td>
+            <td>Set of title and other info that isn't displayed</td>
+            <td> text,UTF-8</td>
+            <td>&#60 head &#62 &#60 title &#62 HTML&#60 &#x2215 title&#62 &#60 &#x2215 head&#62</td>
+            <td>HTML</td>
+           
+        </tr>
+  
+       <tr>
+           <td>&#60 body&#62</td>
+           <td> Global</td>
+           <td>Sets off the visible portion of the documen</td>
+           <td>None</td>
+           <td>&#60 body &#62 &#60 p &#62 Hello World&#60 &#x2215p&#62 &#60 &#x2215  body &#62</td>
+           <td>Hello World</td>
+          
+ 
+   <tr>
+       <td>&#60 title&#62</td>
+       <td> Global</td>
+       <td>Puts name of the document in the title bar; <br> when
+        bookmarking pages, this is what isbookmarked</td>
+       <td>text</td>
+       <td>&#60 head &#62 &#60 title &#62 HTML&#60 &#x2215 title&#62 &#60head&#62</td>
+       <td></td>
+      
+   </tr>
+   <tr>
+    <td>&#60 p &#62</td>
+    <td> Global</td>
+    <td>Creates a new paragraph</td>
+    <td>None</td>
+    <td>&#60 head &#62 &#60 title &#62 HTML&#60 &#x2215 title&#62 &#60head&#62</td>
+    <td>HTML</td>
+   
+</tr>
+</tr>
+
+     
+</tr>
+<tr>
+ <td>&#60 h1 &#62 to &#60 h6 &#62 </td>
+ <td> Global</td>
+ <td>Headings of different levels</td>
+ <td>None</td>
+ <td>&#60h3 &#62Zarif &#60 &#x2215 h3 &#62</td>
+ <td><h3>Zarif</h3></td>
+
+</tr>
+<tr>
+    <td>&#60 img &#62</td>
+    <td> src</td>
+    <td>Adds image</td>
+    <td>URl</td>
+    <td>&#60 img src="image.jpg" alt="its an image" &#62</td>
+    <td><img src="Zarif.png" alt="a photo" width="50" height="50"></td>
+   
+</tr>
+<tr>
+    <td>&#60 div &#62</td>
+    <td> Inline</td>
+    <td>Used to format block content with CSS</td>
+    <td>None</td>
+    <td>&#60 div&#62 this is a division &#60 &#x2215 div&#62</td>
+    <td><div><p style="background-color: blueviolet;">this is a division</p></div></td>
+   
+</tr>
+<tr>
+    <td>&#60 span &#62</td>
+    <td> Inline</td>
+    <td>Grouping inline elements or styles a text</td>
+    <td>None</td>
+    <td>&#60 span style="color:blueviole;&#62 Html is fun &#60 &#x2215 span&#62</td>
+    <td><span style="color:blueviolet;">Html is fun</span></td>
+   
+</tr>
+<tr>
+    <td>&#60 fieldset &#62</td>
+    <td> Inline</td>
+    <td> used to group related elements in a form</td>
+    <td>None</td>
+    <td> &#60 fieldset &#62 &#60 label for="fname"&#62 First name:&#60 &#x2215 label&#62 <br>&#60 input type="text" id="fname" name="fname"&#62  &#60  &#x2215 fieldset &#62 </td>
+    <td><form action="/action_page.php">
+        <fieldset>
+          <legend>Info:</legend>
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname"><br><br>
+        </fieldset>
+    </form></td>
+   
+</tr>
+<tr>
+    <td>&#60ul&#62 </td>
+    <td> style-type-list</td>
+    <td>Defines unordered List</td>
+    <td> circle, square,disc,none </td>
+    <td>&#60 ul&#62 &#60 li&#62 item1 &#60 &#x2215 li&#62 <br> &#60 li&#62 item2 &#60 &#x2215 li&#62 &#60 &#x2215 ul&#62</td>
+    <td><ul><li>item1</li> <br><li>item2</li></ul></td>
+  
+   
+</tr>
+<tr>
+    <td>&#60ol&#62 </td>
+    <td>type</td>
+    <td>Defines ordered List</td>
+    <td> 1, A, a I i </td>
+    <td>&#60 ol&#62 &#60 li&#62 item1 &#60 &#x2215 li&#62 <br> &#60 li&#62 item2 &#60 &#x2215 li&#62 &#60 &#x2215 ol&#62</td>
+    <td><ol><li>item1</li> <br><li>item2</li></ol></td>
+  
+   
+</tr>
+<tr>
+    <td>&#60li&#62 </td>
+    <td> Global</td>
+    <td>Encompasses each list item</td>
+    <td> None </td>
+    <td>&#60 ul&#62 &#60 li&#62 item1 &#60 &#x2215 li&#62 <br> &#60 li&#62 item2 &#60 &#x2215 li&#62 &#60 &#x2215 ul&#62</td>
+    <td><ul><li>item1</li> <br><li>item2</li></ul></td>
+  
+   
+</tr>
+<tr>
+    <td>&#60dl&#62 </td>
+    <td> Global</td>
+    <td>defines the description list</td>
+    <td> None </td>
+    <td>&#60 dl&#62 &#60 dt&#62 Book: &#60 &#x2215 dd&#62 &#60 dt&#62 Book is friend &#60 &#x2215 dd&#62  &#60 &#x2215 dll&#62</td>
+    <td><dl><dt>Book:</dt><dd>Book is friend</dd></dl></td>
+  
+   
+</tr>
+<tr>
+    <td>&#60th&#62 </td> 
+    <td> Global</td>
+    <td>Defines heading in a table</td>
+    <td> None </td>
+    <td>&#60 td&#62  its a table heading &#60 &#x2215 td&#62</td>
+    <th>this is a table heading</th>
+  
+   
+</tr>
+<tr>
+    <td>&#60tr&#62 </td> 
+    <td> Global</td>
+    <td>Defines rows in a table</td>
+    <td> None </td>
+    <td>&#60 tr&#62  its a table row &#60 &#x2215 tr&#62</td>
+    <td>its a table row</td>
+  
+   
+</tr>
+<tr>
+    <td>&#60 td&#62 </td> 
+    <td> Global</td>
+    <td>Defines data in a table</td>
+    <td> None </td>
+    <td>&#60 td &#62  its a data &#60 &#x2215 td&#62</td>
+    <td>its a data</td>
+  
+   
+</tr>
+<tr>
+    <td>&#60 form &#62 </td> 
+    <td> Global</td>
+    <td>Defines a form</td>
+    <td> None </td>
+    <td>&#60 form &#62  Example &#60 &#x2215 form&#62</td>
+    <td><form >
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br><br>
+        <input type="submit" value="Submit">
+      </form> </td>
+  
+   
+</tr>
+<tr>
+    <td>&#60 input &#62 </td> 
+    <td> Global</td>
+    <td>Defines an input field within a form</td>
+    <td> None </td>
+    <td>&#60 input  type="text" name="username" &#62</td>
+    <td><a href="form.html">Example</a></td>
+  
+   
+</tr>
+<tr>
+    <td>&#60 label &#62 </td> 
+    <td> Global</td>
+    <td>Associate a label within a input</td>
+    <td> None </td>
+    <td>&#60 label for="Firstname"  &#62 Firstname:&#60 &#x2215 label &#62</td>
+    <td><a href="form.html">Example</a></td>
+  
+   
+</tr>
+<tr>
+    <td>&#60 select &#62 </td> 
+    <td> Global</td>
+    <td>Checkboxes let a user select ZERO or MORE options of a limited number of choices</td>
+    <td> None </td>
+    <td>&#60 input type="checkbox" id="lang1" name="English" value="English" &#62 <br>&#60 label for="lang1" &#62 English&#60 &#x2215 label &#62 </td>
+    <td><form>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> English</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> Persian</label><br>
+    </form></td>
+  
+   
+</tr>
+<tr>
+    <td>&#60  checkbox &#62 </td> 
+    <td> Global</td>
+    <td>create a dropdown list</td>
+    <td> None </td>
+    <td>&#60 select &#62 Options&#60 &#x2215select &#62</td>
+    <td><select name="Options" id="options"> <option value="Options">Option1</option> <option value="Option2">Option2</option></select></td>
+  
+   
+</tr>
+<tr>
+    <td>&#60 button &#62 </td> 
+    <td> Global</td>
+    <td>create a clickable button</td>
+    <td> None </td>
+    <td>&#60 button &#62 Click &#60 &#x2215 button &#62</td>
+    <td><input type="submit" value="Click"></td>
+  
+   
+</tr>
+<tr>
+    <td>&#60 strong&#62 </td> 
+    <td> inline</td>
+    <td>Emphasizes a word (usually processed in bold)</td>
+    <td> None </td>
+    <td>&#60 strong &#62  Hi &#60 &#x2215 strong &#62</td>
+    <td><strong>Hi</strong></td>
+  
+   
+</tr>
+<tr>
+    <td>&#60 em&#62 </td> 
+    <td> inline</td>
+    <td>Emphasizes a word </td>
+    <td> None </td>
+    <td>&#60 em &#62  Hi &#60 &#x2215 em &#62</td>
+    <td><em>Hi</em></td>
+  
+   
+</tr>
+r>
+<tr>
+    <td>&#60 u&#62 </td> 
+    <td> Inline</td>
+    <td>it underline the text</td>
+    <td> None </td>
+    <td>&#60 u&#62 Html is fun&#60 &#x2215 u&#62</td>
+    <td> <u>Html is fun</u></td>
+  
+   
+</tr>
+<tr>
+    <td>&#60 mark &#62 </td> 
+    <td> Inline</td>
+    <td>it mark or highlights the text</td>
+    <td> None </td>
+    <td>&#60 mark &#62 Html is fun &#60 &#x2215 mark &#62</td>
+    <td> <mark> Html is fun</mark></td>
+  
+   
+</tr>
+<tr>
+    <td>&#60 br&#62 </td> 
+    <td> Global</td>
+    <td>Insert a line break</td>
+    <td> None </td>
+    <td>&#60 br &#62</td>
+    <td>Hi <br>threr!</td>
+  
+   
+</tr>
+<tr>
+    <td>&#60 a &#62</td>
+    <td> Global</td>
+    <td>Creates a hyperlink <br> to a Uniform Resource Locator</td>
+    <td>link</td>
+    <td>&#60 a href = "mailto:zarifhussainyar@gmail.com" &#62 Email &#60 &#x2215 a &#62 </td>
+    <td><a href="mailto:zarifhussainyar@gmail.com">Email</a></td>
+   
+   </tr>
+   <tr>
+    <td>&#60 !--...--&#62 </td> 
+    <td> Inline</td>
+    <td>Used to write a comment</td>
+    <td> None </td>
+    <td>&#60 !-- Hi there!-- &#62</td>
+    <td></td>
+  
+   
+</tr>
+<tr>
+    <td>&#60 sub&#62 </td> 
+    <td> Inline</td>
+    <td>used to display a text as subscript</td>
+    <td> None </td>
+    <td> H &#60 sub &#62 2&#60 &#x2215 sub&#62 O</td>
+    <td>H<sub>2</sub>O</td>
+  
+   
+</tr>
+<tr>
+    <td>&#60 pre &#62 </td> 
+    <td>Global</td>
+    <td>used for preformating a text</td>
+    <td> None </td>
+    <td>&#60 pre&#62</td>
+    <td><pre>Hello</pre></td>
+  
+   
+</tr>
+<tr>
+    <td>&#60 code &#62 </td> 
+    <td>inline</td>
+    <td>used to display a computer code</td>
+    <td> None </td>
+    <td>&#60 code &#62 print &#x2215 code &#62 </td>
+    <td>This <code>print</code> is used to create output</td>
+  
+   
+</tr>
+
+    </table>
+</body>
+</html>
